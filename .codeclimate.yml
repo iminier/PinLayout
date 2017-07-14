@@ -1,0 +1,16 @@
+engines:
+  tailor:
+    enabled: true
+
+ratings:
+  paths:
+  - "**.swift"
+
+exclude_paths:
+    - PinLayoutTests
+    - PinLayoutSample
+    - Carthage
+    - Source/Pods
+    - data
+    - scripts
+    
